@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.aplication.myworld"
+4    android:versionCode="6"
+5    android:versionName="6.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:7:22-78
+14    <!-- NEW -->
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:9:5-71
+15-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:9:22-68
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:10:5-65
+16-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.VIDEO_CAPTURE" />
+17-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:11:5-72
+17-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:12:5-80
+18-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:13:5-79
+19-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.webkit.PermissionRequest" />
+20-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:14:5-72
+20-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:14:22-69
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:12:5-80
+21-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:12:22-77
+22
+23    <uses-feature
+23-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:16:5-90
+24        android:name="android.hardware.camera.front"
+24-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:16:19-63
+25        android:required="true" />
+25-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:16:64-87
+26    <uses-feature
+26-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:17:5-84
+27        android:name="android.hardware.camera"
+27-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:17:19-57
+28        android:required="true" />
+28-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:17:58-81
+29    <uses-feature
+29-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:18:5-95
+30        android:name="android.hardware.camera.level.full"
+30-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:18:19-68
+31        android:required="true" />
+31-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:18:69-92
+32    <uses-feature
+32-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:19:5-99
+33        android:name="android.hardware.camera.capability.raw"
+33-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:19:19-72
+34        android:required="true" />
+34-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:19:73-96
+35    <uses-feature
+35-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:20:5-88
+36        android:name="android.hardware.camera.any"
+36-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:20:19-61
+37        android:required="true" />
+37-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:20:62-85
+38    <uses-feature
+38-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:21:5-88
+39        android:name="android.hardware.microphone"
+39-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:21:19-61
+40        android:required="true" />
+40-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:21:62-85
+41    <uses-feature
+41-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:22:5-85
+42        android:name="android.hardware.camera2"
+42-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:22:19-58
+43        android:required="true" />
+43-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:22:59-82
+44
+45    <application
+45-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:25:5-40:19
+46        android:allowBackup="true"
+46-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:26:9-35
+47        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+47-->[com.android.support:support-compat:28.0.0] /Users/EddieMuro7/.gradle/caches/transforms-2/files-2.1/4e7b3bbed8e6e29e2ba6d4fc6e8eccff/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+48        android:hardwareAccelerated="true"
+48-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:28:9-43
+49        android:icon="@mipmap/ic_launcher"
+49-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:27:9-43
+50        android:label="@string/app_name"
+50-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:29:9-41
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:30:9-54
+52        android:supportsRtl="true"
+52-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:31:9-35
+53        android:theme="@style/Theme.AppCompat.NoActionBar" >
+53-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:32:9-59
+54        <activity
+54-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:33:9-39:20
+55            android:name="app.aplication.myworld.MainActivity"
+55-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:33:19-47
+56            android:configChanges="keyboardHidden|orientation|screenSize"
+56-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:33:48-109
+57            android:hardwareAccelerated="true" >
+57-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:33:110-144
+58            <intent-filter>
+58-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:34:13-38:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:35:17-69
+59-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:35:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:37:17-77
+61-->/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/src/main/AndroidManifest.xml:37:27-74
+62            </intent-filter>
+63        </activity>
+64    </application>
+65
+66</manifest>

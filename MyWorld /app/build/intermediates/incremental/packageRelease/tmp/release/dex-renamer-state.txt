@@ -1,0 +1,4 @@
+#Fri Apr 10 11:20:26 MDT 2020
+base.0=/Users/EddieMuro7/AndroidStudioProjects/MyWorld /app/build/intermediates/dex/release/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
